@@ -1,0 +1,47 @@
+body {
+    font-family: Akaya Kanadaka;
+    background-image: url(Mustache_background.png);
+    color: black;
+}
+
+.head_div {
+    text-align: center;
+    background-image: url("Heading.png");
+    height: 150px;
+    width: 100%;
+    color: white;
+    font-size: 500%;
+}
+
+.h1_1 {
+    background-color: white;
+    text-align: center;
+}
+
+.take_and_download_snapshot {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+    width: 100%;
+    font-size: xx-large;
+    position: absolute;
+    top: 24%;
+}
+
+.take_and_download_snapshot:hover {
+    background-color: rgba(255, 217, 0, 0.8);
+    color: black;
+}
+
+/*  */
+canvas {
+    border: 10px solid rgb(0, 0, 0);
+}
+
+/*  */
+@media screen and (max-width : 425px) {
+    .head_div {
+        font-size: 400%;
+    }
+}
